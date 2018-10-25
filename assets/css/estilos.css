@@ -9,24 +9,37 @@ body{
     border-top: #2dcc70 solid 10px;
     display: flex;
     background-size: cover;
+    border: 0px;
+    padding: 47px;
+}
+.principal{
+    margin-top: 63px;
+    font-size: 24px;
+    margin-left: 47px;
 }
 .titulo-principal{
     font-family: 'Pacifico', cursive;
     font-weight: normal;
     font-variant-ligatures: no-contextual;
     color: white;
-    font-size: 58px;
+    font-size: -webkit-xxx-large;
     
 }
 .hand{
-    margin-left: 238px;
+    margin-left: 21px;
     position: relative;
-    top: 4px;
+    top: 51px;
 }
-.plataformas:hover{
+.mao{
+    width: 364px;
+    height: 418px;
+}
+.plataformas{
     opacity: 0.65;
     filter: alpha (opacity=65);
     background-color: black;
+    border-radius: 46px;
+    padding: 10px;
 }
 .ponto{
     color: #2dcc70;
@@ -35,10 +48,16 @@ body{
 .paragrafo1{
     font-family: 'Roboto', sans-serif;
     color: white;
+    font-size:;
 }
 .lorem{
     background-color: #e3e3e3;
     display: flex;
+}
+.segura{
+    text-align: -webkit-left;
+    margin-top: 32px;
+    margin-inline-start: 80px;
 }
 .center{
     text-align: center;
@@ -46,11 +65,12 @@ body{
 h1{
     font-family: 'Roboto', sans-serif;
     text-decoration-style: black solid;
-    text-align: center;
+    font-size: larger;
 }
 p{
     font-family: 'Roboto', sans-serif;
-    color: #e3e3e3;
+    color: #989898;
+    
 }
 .icones{
     display: flex;
@@ -75,3 +95,52 @@ ul{
     padding-right: 425px;
     padding-left: 338px;
 }
+.marrom{
+    margin: 45px;
+    padding: 19px;
+}
+.video{
+    width: 425px;
+    height: 262px;
+    margin-top: 6px;
+    margin-right: 200px;
+}
+input{
+    font-family: 'Roboto', sans-serif;
+    padding: 13px;
+    padding-right: 60px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.botao{
+    background-color: #2ccc74;
+    margin: -5px;
+    padding-right: 15px;
+    padding: 13px;
+    border-radius: 9px;
+    color: white;
+    font-size: 18px;
+}
+
+label{
+    padding: 10px 20px;
+    width: 10%;
+    height: 10px;
+    border-top-right-radius: 16%;
+    border-bottom-right-radius: 16%;
+    width: 10%;
+    height: 10px;
+}
+.botao{
+    background-color:#2ccc74;
+    color: white;
+    margin-left: -6px;
+}
+input{
+    font-family: 'Roboto', sans-serif;
+    padding: 13px;
+    padding-right: 60px;
+    border-radius: 7px;
+    font-size: 15px;  
+}
+    
