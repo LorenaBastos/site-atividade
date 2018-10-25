@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    border-width: 10px;
+}
+
+.banner{
+    background-image: url(../imagens/background.png);
+    background-repeat: no-repeat;
+    border-top: #2ccc74 solid 10px;
+    display: flex;
+}
+.titulo-principal{
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    font-variant-ligatures: no-contextual;
+    color: white;
+    font-size: 58px;
+    
+}
+.plataformas:hover{
+    opacity: 0.65;
+    filter: alpha (opacity=65);
+    background-color: black;
+}
+.ponto{
+    color: #2ccc74;
+}
+
+.paragrafo1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.lorem{
+    background-color: lightgrey;
+    display: flex;
+}
+.center{
+    text-align: center;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-decoration-style: black solid;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    text-decoration-color: lightgrey;
+}
+.icones{
+    display: flex;
+}
+footer{
+    background-color: lightgrey;
+    align-items: center;
+    padding: 33px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 425px;
+    padding-left: 338px;
+}
