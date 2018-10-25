@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     border-top: #2ccc74 solid 10px;
     display: flex;
+    background-size: cover;
 }
 .titulo-principal{
     font-family: 'Pacifico', cursive;
@@ -16,6 +17,11 @@ body{
     color: white;
     font-size: 58px;
     
+}
+.hand{
+    margin-left: 238px;
+    position: relative;
+    top: 4px;
 }
 .plataformas:hover{
     opacity: 0.65;
@@ -31,7 +37,7 @@ body{
     color: white;
 }
 .lorem{
-    background-color: lightgrey;
+    background-color: #e3e3e3;
     display: flex;
 }
 .center{
@@ -40,16 +46,25 @@ body{
 h1{
     font-family: 'Roboto', sans-serif;
     text-decoration-style: black solid;
+    text-align: center;
 }
 p{
     font-family: 'Roboto', sans-serif;
-    text-decoration-color: lightgrey;
+    color: #e3e3e3;
 }
 .icones{
     display: flex;
+    text-align: center;
+
+}
+.maria{
+    background-color: #2ccc74;
+    border-radius: 44px;
+    margin-top: 51px;
+    padding: 18px;
 }
 footer{
-    background-color: lightgrey;
+    background-color: #e3e3e3;
     align-items: center;
     padding: 33px;
 }
