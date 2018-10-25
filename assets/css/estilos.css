@@ -6,7 +6,7 @@ body{
 .banner{
     background-image: url(../imagens/background.png);
     background-repeat: no-repeat;
-    border-top: #2ccc74 solid 10px;
+    border-top: #2dcc70 solid 10px;
     display: flex;
     background-size: cover;
 }
@@ -29,7 +29,7 @@ body{
     background-color: black;
 }
 .ponto{
-    color: #2ccc74;
+    color: #2dcc70;
 }
 
 .paragrafo1{
@@ -58,7 +58,7 @@ p{
 
 }
 .maria{
-    background-color: #2ccc74;
+    background-color: #2dcc70;
     border-radius: 44px;
     margin-top: 51px;
     padding: 18px;
